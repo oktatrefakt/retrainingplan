@@ -11,12 +11,13 @@
 package com.example;
 
 public class TrainingDto {
-    String date;
-    String timeOfDay;
-    String training;
+String date;
+ String timeOfDay;
+String training;
+    // String notes; // ezt végül nem kértük be, maradjon itt hátha kell
     public TrainingDto(String date, String timeOfDay, String training) {
         this.date = date;
         this.timeOfDay = timeOfDay;
         this.training = training;
-    }
+    }// end constructor
 }
